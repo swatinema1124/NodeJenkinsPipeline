@@ -11,5 +11,4 @@ pipeline {
                     input('Do you want to proceed?')
                  }
                  }
-                 
-         }
+ }
