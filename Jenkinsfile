@@ -3,11 +3,9 @@ pipeline {
          stages {
                  stage('Build') {
                  steps {
-                          script {
-                               docker-compose -f docker-compose.yml build
-                          }
-                          
-              
+                     script {
+                         docker-compose -f docker-compose.yml build
+                     }
                  }
                  }
                  stage('Test') {
